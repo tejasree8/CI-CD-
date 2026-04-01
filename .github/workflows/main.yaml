@@ -1,4 +1,4 @@
-name: CI Workflow
+name: CI/CD Workflow
 
 on: [push]
 
@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print hello
-        run: "welcome to CI/CD CLASS"
+      - name:  Print welcome message
+        run: echo "This is a devops class"
       
